@@ -1,0 +1,126 @@
+:root {
+    color-scheme: dark;
+    --bg: #0b1420;
+    --surface: #111b2c;
+    --surface-soft: #17253d;
+    --text: #f5f7ff;
+    --muted: #a8b4d1;
+    --primary: #6c63ff;
+    --accent: #18d0d9;
+    --danger: #ff5f6;
+    --success: #2dd4bf;
+    --border: rgba(255, 255, 255, 0.08);
+}
+
+body {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+
+.stApp, .css-1y4p8pa, .main .block-container {
+    background: radial-gradient(circle at top left, rgba(108, 99, 255, 0.22), transparent 22%),
+                radial-gradient(circle at bottom right, rgba(24, 208, 217, 0.18), transparent 18%),
+                linear-gradient(180deg, #09101f 0%, #0e1a2b 100%) !important;
+}
+
+.hero-banner {
+    padding: 40px 24px 10px 24px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.22);
+    margin-bottom: 24px;
+}
+
+.hero-banner h1 {
+    font-size: 3.4rem;
+    line-height: 1.05;
+    margin-bottom: 16px;
+}
+
+.hero-subtitle {
+    color: var(--muted);
+    font-size: 1.1rem;
+    max-width: 780px;
+    margin-bottom: 24px;
+}
+
+.hero-bullets {
+    list-style: none;
+    padding-left: 0;
+}
+
+.hero-bullets li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: var(--muted);
+}
+
+.hero-cta {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, #6c63ff, #18d0d9);
+    color: #fff !important;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.metric-card, .progress-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.metric-card h3 {
+    margin: 0.35rem 0 0.45rem;
+    font-size: 1.75rem;
+    color: var(--text);
+}
+
+.metric-label {
+    color: var(--muted);
+    font-size: 0.96rem;
+    font-weight: 600;
+}
+
+.progress-meter {
+    width: 100%;
+    height: 14px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 999px;
+    margin: 12px 0;
+    overflow: hidden;
+}
+
+.progress-meter div {
+    height: 100%;
+    border-radius: 999px;
+}
+
+.progress-card span {
+    display: block;
+    font-size: 1rem;
+    color: var(--text);
+}
+
+.section-heading {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.stButton>button {
+    border-radius: 999px;
+    padding: 0.95rem 1.8rem;
+}
+
+.st-bb, .css-1af0hpe {
+    border-radius: 20px !important;
+}
+
+div[data-testid='stHorizontalBlock'] {
+    gap: 18px;
+}
